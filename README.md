@@ -1,29 +1,22 @@
-# Mess Menu — GitHub Pages
+# Mess Menu
 
-Standalone static web app. No Lovable dependency and no backend required.
+A lightweight GitHub Pages web app for viewing the SEDC mess menu.
 
-## Deploy
+## Updating the menu
 
-1. Create a GitHub repository.
-2. Upload every file/folder in this project, including `.github`.
-3. Use `main` as the default branch.
-4. GitHub → Settings → Pages.
-5. Set Source to **GitHub Actions**.
-6. Push/commit the project.
+You only need to replace one file:
 
-The included workflow deploys the site automatically.
+`source/menu.xlsx`
 
-## Updating menus
+Keep the filename exactly `menu.xlsx`.
 
-Main menu data:
+When that file is committed to the `master` branch, GitHub Actions automatically:
 
-`data/menu.json`
+1. reads the Excel workbook,
+2. regenerates `data/menu.json`,
+3. validates the generated menu,
+4. deploys the updated site to GitHub Pages.
 
-Veg/non-veg alternatives:
+You do not need to edit `app.js`, `index.html`, or `data/menu.json` manually.
 
-`data/choicePairs.json`
-
-When a new 15-day spreadsheet arrives, replace/update these data files.
-The UI itself does not need modification.
-
-A future Excel-import GitHub Action can automate this conversion completely.
+The converter expects the same general spreadsheet layout as the current SEDC menu: dates across row 1, meal section names in column A, and item/category labels in column B. Different dates are detected automatically.
