@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-08-02",
+    "meal": "Lunch",
+    "veg": "Paneer Veg Dum Biryani",
+    "nonVeg": "Hydrabadi Dum Biryani"
+  },
+  {
+    "date": "2026-08-03",
+    "meal": "Dinner",
+    "veg": "Chilli Paneer",
+    "nonVeg": "Egg Masala"
+  },
+  {
+    "date": "2026-08-05",
+    "meal": "Lunch",
+    "veg": "Kadhai Paneer",
+    "nonVeg": "Chicken 65"
+  },
+  {
+    "date": "2026-08-07",
+    "meal": "Dinner",
+    "veg": "Paneer Lababdar",
+    "nonVeg": "Chicken Kasha"
+  },
+  {
+    "date": "2026-08-09",
+    "meal": "Lunch",
+    "veg": "Mix Veg Biryani",
+    "nonVeg": "Kolkata Chicken Biryani"
+  },
+  {
+    "date": "2026-08-10",
+    "meal": "Dinner",
+    "veg": "Chilli Paneer",
+    "nonVeg": "Egg Masala"
+  },
+  {
+    "date": "2026-08-12",
+    "meal": "Lunch",
+    "veg": "Paneer Masala",
+    "nonVeg": "Chicken 65"
+  },
+  {
+    "date": "2026-08-14",
+    "meal": "Dinner",
+    "veg": "Kadhai Paneer",
+    "nonVeg": "Kadhai Chicken"
+  }
+]

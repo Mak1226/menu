@@ -1,0 +1,2545 @@
+[
+  {
+    "date": "2026-08-01",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Oats"
+        ],
+        [
+          "Egg Prep",
+          "Masala Omelette"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Onion & Aloo Paratha"
+        ],
+        [
+          "Main Dish -02",
+          "Bisibella bath"
+        ],
+        [
+          "Side Dish",
+          "Curd,Pickle"
+        ],
+        [
+          "Side Dish",
+          "Savoury Boondi"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Bombay Sandwich"
+        ],
+        [
+          "Accompaniment",
+          "Ketchup"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Mix Veg Salad"
+        ],
+        [
+          "Veggie 1",
+          "Lauki Chana dal sabzi"
+        ],
+        [
+          "Veggie 2",
+          "Mutter Mashroom"
+        ],
+        [
+          "Dal",
+          "Dal Fry"
+        ],
+        [
+          "Rice",
+          "Brown Onion Rice"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Mixed veg Raita"
+        ],
+        [
+          "Dessert",
+          "(Pineapple)Keshri Bhat"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Thecha"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Cucumber mint salad"
+        ],
+        [
+          "Veggie 1",
+          "Sev Tomato"
+        ],
+        [
+          "Veggie 2",
+          "Aloo Bhindi Masala dry"
+        ],
+        [
+          "Non-Veg",
+          "Rasam"
+        ],
+        [
+          "Dal",
+          "Dal Adraki"
+        ],
+        [
+          "Rice",
+          "Makai Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Plain Curd"
+        ],
+        [
+          "Dessert",
+          "Imarti"
+        ],
+        [
+          "Accompaniment",
+          "Roasted Papad"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-02",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Cut Pineapple"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Poha"
+        ],
+        [
+          "Main Dish -02",
+          "Idli"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ],
+        [
+          "Side Dish",
+          "Tomato Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "punugulu"
+        ],
+        [
+          "Accompaniment",
+          "Groundnut Chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Lachha Onion"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Korma"
+        ],
+        [
+          "Veggie 2",
+          "Paneer Veg  Dum Biryani"
+        ],
+        [
+          "Non-Veg",
+          "Hydrabadi Dum Biryani"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Chaas"
+        ],
+        [
+          "Dessert",
+          "Moong Dal halwa"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Tossed Salad"
+        ],
+        [
+          "Veggie 1",
+          "Veg Hariyali"
+        ],
+        [
+          "Veggie 2",
+          "Mixed kathool Masala"
+        ],
+        [
+          "Dal",
+          "Maa Ki Dal"
+        ],
+        [
+          "Rice",
+          "Peas Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Jeera  raita"
+        ],
+        [
+          "Dessert",
+          "Slice marvel Cake"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Water melon"
+        ],
+        [
+          "Egg Prep",
+          "Poached Egg"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Sabudana khichdi"
+        ],
+        [
+          "Main Dish -02",
+          "vada"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ],
+        [
+          "Side Dish",
+          "Coconut Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "veg cheese ball"
+        ],
+        [
+          "Accompaniment",
+          "Ketchup,Mint Chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Cucumber mint salad"
+        ],
+        [
+          "Veggie 1",
+          "Tawa Veg Masala"
+        ],
+        [
+          "Veggie 2",
+          "Khati Mithi Pamkin"
+        ],
+        [
+          "Dal",
+          "Punjabi Pakoda  Kadhi"
+        ],
+        [
+          "Rice",
+          "Jeera Mint pulao"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Cucumber  raita"
+        ],
+        [
+          "Dessert",
+          "Kala Jamun"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Corn And Peas Salad"
+        ],
+        [
+          "Veggie 1",
+          "Torei Masala"
+        ],
+        [
+          "Veggie 2",
+          "Chilli Paneer"
+        ],
+        [
+          "Non-Veg",
+          "Egg Masla"
+        ],
+        [
+          "Dal",
+          "Punjabi Tadkawali dal"
+        ],
+        [
+          "Rice",
+          "Veg Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Boondi  raita"
+        ],
+        [
+          "Dessert",
+          "Malpua"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Banana"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Plain Paratha"
+        ],
+        [
+          "Main Dish -02",
+          "Upma"
+        ],
+        [
+          "Side Dish",
+          "Coconut chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Pani Puri"
+        ],
+        [
+          "Accompaniment",
+          "Tomato Ketchup"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Tossed Salad"
+        ],
+        [
+          "Veggie 1",
+          "Chole"
+        ],
+        [
+          "Veggie 2",
+          "Vegetable poriyal"
+        ],
+        [
+          "Dal",
+          "Sambhar"
+        ],
+        [
+          "Rice",
+          "Plain Rice"
+        ],
+        [
+          "Bread",
+          "Bhatura"
+        ],
+        [
+          "Raita",
+          "Chass"
+        ],
+        [
+          "Dessert",
+          "Fruit Cake"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Kachumber Salad"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Gobi Adraki"
+        ],
+        [
+          "Veggie 2",
+          "Kothimbir Wadi"
+        ],
+        [
+          "Dal",
+          "Dal Lasooni"
+        ],
+        [
+          "Rice",
+          "Steam Rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Cucumber  raita"
+        ],
+        [
+          "Dessert",
+          "Chocolate Ice-Cream"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Mixed Sprout"
+        ],
+        [
+          "Egg Prep",
+          "Masala Omelette"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "puri"
+        ],
+        [
+          "Main Dish -02",
+          "Uttapam"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ],
+        [
+          "Side Dish",
+          "Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Vada Pav"
+        ],
+        [
+          "Accompaniment",
+          "Chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Lachha Onion"
+        ],
+        [
+          "Veggie 1",
+          "Mix Veg Adraki"
+        ],
+        [
+          "Veggie 2",
+          "Kadhai Panner"
+        ],
+        [
+          "Non-Veg",
+          "Chicken 65"
+        ],
+        [
+          "Dal",
+          "Maa Ki Dal"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Boondi Raita"
+        ],
+        [
+          "Dessert",
+          "Fruit custard"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Cucumber Mint salad"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Bindi Bujia"
+        ],
+        [
+          "Veggie 2",
+          "Soya Muttar Curry"
+        ],
+        [
+          "Dal",
+          "Dhaba Dal Fry"
+        ],
+        [
+          "Rice",
+          "Peas Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Chass"
+        ],
+        [
+          "Dessert",
+          "Srikhand"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Cut Papaya"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita Milk"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Aloo sandwinch"
+        ],
+        [
+          "Main Dish -02",
+          "Poha"
+        ],
+        [
+          "Side Dish",
+          "tomato ketchup"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Mix sauce Pasta"
+        ],
+        [
+          "Accompaniment",
+          "Chili flakes , Oregano"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Kachumber salad"
+        ],
+        [
+          "Veggie 1",
+          "Pumkin Chana masala"
+        ],
+        [
+          "Veggie 2",
+          "Mixed Veg Chatpati"
+        ],
+        [
+          "Dal",
+          "Gujrati dal"
+        ],
+        [
+          "Rice",
+          "Basanti Pulao"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Jeera Mint  raita"
+        ],
+        [
+          "Dessert",
+          "Motichur Laddu"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Tossed Salad"
+        ],
+        [
+          "Veggie 1",
+          "Soyawadi Mattar"
+        ],
+        [
+          "Veggie 2",
+          "Manchurian"
+        ],
+        [
+          "Dal",
+          "Yellow Dal Tadka"
+        ],
+        [
+          "Rice",
+          "Fried Rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Onion Raita"
+        ],
+        [
+          "Dessert",
+          "Slice Fruit cake"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Oats"
+        ],
+        [
+          "Egg Prep",
+          "Poached Egg"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "misal pav"
+        ],
+        [
+          "Main Dish -02",
+          "set Dosa"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ],
+        [
+          "Side Dish",
+          "Peanut Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "bengaluru masala puri"
+        ],
+        [
+          "Accompaniment",
+          "Chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Peanut salad"
+        ],
+        [
+          "Veggie 1",
+          "Parwal dry Masla"
+        ],
+        [
+          "Veggie 2",
+          "Soya Muttar"
+        ],
+        [
+          "Dal",
+          "Rajma"
+        ],
+        [
+          "Rice",
+          "Jeera Rice"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Mix Veg  raita"
+        ],
+        [
+          "Dessert",
+          "Gulab Jamun"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Sprout  Salad"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Chatpata"
+        ],
+        [
+          "Veggie 2",
+          "Paneer lababder"
+        ],
+        [
+          "Non-Veg",
+          "Chicken Kasha"
+        ],
+        [
+          "Dal",
+          "Lahsooni Dal fry"
+        ],
+        [
+          "Rice",
+          "Ghee Rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Tadkawali  raita"
+        ],
+        [
+          "Dessert",
+          "Besan Barfi"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-08",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Cut Pineapple"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita Milk"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Aloo Paratha"
+        ],
+        [
+          "Main Dish -02",
+          "Upma"
+        ],
+        [
+          "Side Dish",
+          "coconut Chutney"
+        ],
+        [
+          "Side Dish",
+          "Curd"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "samosa"
+        ],
+        [
+          "Accompaniment",
+          "Chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Lachha Onion"
+        ],
+        [
+          "Veggie 1",
+          "masala Baigan Bharta"
+        ],
+        [
+          "Veggie 2",
+          "veg Kofta"
+        ],
+        [
+          "Dal",
+          "Mix Tadkawali Dal"
+        ],
+        [
+          "Rice",
+          "Dhania Pulao"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Chass"
+        ],
+        [
+          "Dessert",
+          "Rasgulla"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Greek salad"
+        ],
+        [
+          "Veggie 1",
+          "Veg jalfreji"
+        ],
+        [
+          "Veggie 2",
+          "Sev Tomato"
+        ],
+        [
+          "Non-Veg",
+          "rasam"
+        ],
+        [
+          "Dal",
+          "Hari Moong Dal Chilka"
+        ],
+        [
+          "Rice",
+          "Plain Rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Jeera Raita"
+        ],
+        [
+          "Dessert",
+          "Boondi"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-09",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Mix Sprout"
+        ],
+        [
+          "Egg Prep",
+          "Masala Omelette"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Batata Poha"
+        ],
+        [
+          "Main Dish -02",
+          "Kanchipuram Idli"
+        ],
+        [
+          "Side Dish",
+          "chopped onion and lemon wedges"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Dhai puri"
+        ],
+        [
+          "Accompaniment",
+          "Imli, Pudina Chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Kachumber Salad"
+        ],
+        [
+          "Veggie 1",
+          "Dum Aloo"
+        ],
+        [
+          "Veggie 2",
+          "Mix Veg Biryani"
+        ],
+        [
+          "Non-Veg",
+          "Kolkata Chicken Biryani"
+        ],
+        [
+          "Bread",
+          "Bhatura"
+        ],
+        [
+          "Raita",
+          "Plain Curd"
+        ],
+        [
+          "Dessert",
+          "Fruint custard"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Cucumber Mint salad"
+        ],
+        [
+          "Veggie 1",
+          "aloo 65"
+        ],
+        [
+          "Veggie 2",
+          "Veg Adraki"
+        ],
+        [
+          "Dal",
+          "Dal Pancmel"
+        ],
+        [
+          "Rice",
+          "Basanti Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Pineapple Raita"
+        ],
+        [
+          "Dessert",
+          "Gaja"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Banana"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Sabudana khichdi"
+        ],
+        [
+          "Main Dish -02",
+          "vada"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ],
+        [
+          "Side Dish",
+          "Coconut Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Kachoori"
+        ],
+        [
+          "Accompaniment",
+          "Tamarind , Mint chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Peanut salad"
+        ],
+        [
+          "Veggie 1",
+          "white matar (peas) sabji"
+        ],
+        [
+          "Veggie 2",
+          "Aloo Bhindi Dry"
+        ],
+        [
+          "Dal",
+          "Dal Panchforon"
+        ],
+        [
+          "Rice",
+          "Jeera Peas Pulao"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Boondi Raita"
+        ],
+        [
+          "Dessert",
+          "Moong dal halwa"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Tossed Salad"
+        ],
+        [
+          "Veggie 1",
+          "Mixed Kathol"
+        ],
+        [
+          "Veggie 2",
+          "Chilli Paneer"
+        ],
+        [
+          "Non-Veg",
+          "Egg Masla"
+        ],
+        [
+          "Dal",
+          "Mung Dal Tadka"
+        ],
+        [
+          "Rice",
+          "Schezwan rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Pudina Dhania  raita"
+        ],
+        [
+          "Dessert",
+          "Chocolate Truffle"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Watermelon"
+        ],
+        [
+          "Egg Prep",
+          "Poached Egg"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Methi paratha"
+        ],
+        [
+          "Main Dish -02",
+          "sevai upma"
+        ],
+        [
+          "Side Dish",
+          "Aloo Matar Sabji"
+        ],
+        [
+          "Side Dish",
+          "Green Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Aloo tikki"
+        ],
+        [
+          "Accompaniment",
+          "Tamarind , Mint chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Cucumber Mint Salad"
+        ],
+        [
+          "Veggie 1",
+          "Batata bhaji"
+        ],
+        [
+          "Veggie 2",
+          "Usal rassa"
+        ],
+        [
+          "Dal",
+          "amti dal"
+        ],
+        [
+          "Rice",
+          "masala bhat"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "chass"
+        ],
+        [
+          "Dessert",
+          "shrikhand"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Thecha"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Corn And Peas Salad"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Bindi Bujia"
+        ],
+        [
+          "Veggie 2",
+          "Lobiya Masala"
+        ],
+        [
+          "Dal",
+          "Yellow Dal Tadka"
+        ],
+        [
+          "Rice",
+          "Kashmiri pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Chass"
+        ],
+        [
+          "Dessert",
+          "Rasgulla"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Cut Papya"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita Milk"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "fried masala idli"
+        ],
+        [
+          "Main Dish -02",
+          "Mix Veg paratha"
+        ],
+        [
+          "Side Dish",
+          "Coconut chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Pav Bhaji"
+        ],
+        [
+          "Accompaniment",
+          "Chopped Onin , Lemon  Wedges"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Lachha Onion"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Dum Kashmiri"
+        ],
+        [
+          "Veggie 2",
+          "Chicken 65"
+        ],
+        [
+          "Non-Veg",
+          "Paneer  masala"
+        ],
+        [
+          "Dal",
+          "Mix Tadkawali Dal"
+        ],
+        [
+          "Rice",
+          "Plain Rice"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Mixed veg Raita"
+        ],
+        [
+          "Dessert",
+          "Langcha"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Kachumber  salad"
+        ],
+        [
+          "Veggie 1",
+          "Seasonal Vegetable curry"
+        ],
+        [
+          "Veggie 2",
+          "Lauki  Moong"
+        ],
+        [
+          "Dal",
+          "Yellow Dal Fry"
+        ],
+        [
+          "Rice",
+          "Steam Rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Boondi  raita"
+        ],
+        [
+          "Dessert",
+          "Besan Barfi"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Mix Sprout"
+        ],
+        [
+          "Egg Prep",
+          "Masala Omelette"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Puri"
+        ],
+        [
+          "Main Dish -02",
+          "Poha"
+        ],
+        [
+          "Side Dish",
+          "Aloo Black Chana"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Papdi Chaat"
+        ],
+        [
+          "Accompaniment",
+          "Chili flakes , Oregano"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Cucumber Mint Salad"
+        ],
+        [
+          "Veggie 1",
+          "Veg poriyal"
+        ],
+        [
+          "Veggie 2",
+          "Chole"
+        ],
+        [
+          "Dal",
+          "sambar"
+        ],
+        [
+          "Rice",
+          "Jeera Rice"
+        ],
+        [
+          "Bread",
+          "Bhatura"
+        ],
+        [
+          "Raita",
+          "Chaas"
+        ],
+        [
+          "Dessert",
+          "sewai kheer"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Sprout salad"
+        ],
+        [
+          "Veggie 1",
+          "Black channa gravy"
+        ],
+        [
+          "Veggie 2",
+          "Aloo 65"
+        ],
+        [
+          "Dal",
+          "Lahsooni Dal fry"
+        ],
+        [
+          "Rice",
+          "Sabji Tehri"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Plain Curd"
+        ],
+        [
+          "Dessert",
+          "Butter Scotch Ice cream"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Oats"
+        ],
+        [
+          "Egg Prep",
+          "Boiled Egg"
+        ],
+        [
+          "Cereals",
+          "Chocos"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Bournvita"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "misal pav"
+        ],
+        [
+          "Main Dish -02",
+          "set dosa"
+        ],
+        [
+          "Side Dish",
+          "Sambhar"
+        ],
+        [
+          "Side Dish",
+          "Coconut Chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Bread pakora"
+        ],
+        [
+          "Accompaniment",
+          "Chopped Onion ,Lemon Wedges"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "cabbge Hawain Salad"
+        ],
+        [
+          "Veggie 1",
+          "Dhingri Matar"
+        ],
+        [
+          "Veggie 2",
+          "Dudh Sev"
+        ],
+        [
+          "Dal",
+          "Dal Tadka"
+        ],
+        [
+          "Rice",
+          "Steam Rice"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Tadkawali  raita"
+        ],
+        [
+          "Dessert",
+          "Chocolate Truffle"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Kosambari Salad"
+        ],
+        [
+          "Veggie 1",
+          "Malabari veg"
+        ],
+        [
+          "Veggie 2",
+          "Kadhai Paneer"
+        ],
+        [
+          "Non-Veg",
+          "Kadhai Chicken"
+        ],
+        [
+          "Dal",
+          "Dal Adraki"
+        ],
+        [
+          "Rice",
+          "Ghee Rice"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Mix Veg  raita"
+        ],
+        [
+          "Dessert",
+          "Kala Jamun"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-08-15",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Cut Pineapple"
+        ],
+        [
+          "Egg Prep",
+          "Poached Egg"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar"
+        ],
+        [
+          "Horlicks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "Aloo pyaz paratha"
+        ],
+        [
+          "Main Dish -02",
+          "Vegetable Idli"
+        ],
+        [
+          "Side Dish",
+          "Curd,Pickle"
+        ],
+        [
+          "Side Dish",
+          "tomato chutney"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Kanda Bhaji"
+        ],
+        [
+          "Accompaniment",
+          "Chutney(2 types)"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder"
+        ],
+        [
+          "Tea",
+          "Tea Plain"
+        ],
+        [
+          "Add 1",
+          "Milk with sugar"
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Peanut salad"
+        ],
+        [
+          "Veggie 1",
+          "Soya Muttar Curry"
+        ],
+        [
+          "Veggie 2",
+          "Pumkin Chana masala"
+        ],
+        [
+          "Dal",
+          "Punjabi Pakoda  Kadhi"
+        ],
+        [
+          "Rice",
+          "Peas Pulao"
+        ],
+        [
+          "Bread",
+          "Butter Roti"
+        ],
+        [
+          "Raita",
+          "Veg  raita"
+        ],
+        [
+          "Dessert",
+          "Rasgulla"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Lachha Onion"
+        ],
+        [
+          "Veggie 1",
+          "Rajma Rasila"
+        ],
+        [
+          "Veggie 2",
+          "Aloo Parwal Masala"
+        ],
+        [
+          "Non-Veg",
+          "Rasam"
+        ],
+        [
+          "Dal",
+          "Dhaba Dal Fry"
+        ],
+        [
+          "Rice",
+          "Dhania Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Jeera Mint  raita"
+        ],
+        [
+          "Dessert",
+          "jelabi"
+        ],
+        [
+          "Accompaniment",
+          "Papadam"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  }
+]
