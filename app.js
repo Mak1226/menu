@@ -35,6 +35,15 @@ function indiaParts(date = new Date()) {
   };
 }
 
+function currentTimeText() {
+  return new Intl.DateTimeFormat("en-IN", {
+    timeZone: TZ,
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+  }).format(new Date());
+}
+
 function niceDate(iso) {
   return new Intl.DateTimeFormat("en-IN", {
     timeZone: TZ,
@@ -76,6 +85,33 @@ function isSecondary(category) {
   return /tea|coffee|milk|bread|butter|jam|accompaniment|add/i.test(category);
 }
 
+function heroTable(entries) {
+  if (!entries.length) {
+    return '<div class="hero-empty">No items listed for this meal.</div>';
+  }
+
+  return `<div class="hero-table-wrap">
+    <table class="hero-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Menu</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${entries
+          .map(
+            ([cat, item]) => `<tr>
+              <td>${escapeHtml(cat)}</td>
+              <td>${escapeHtml(item)}</td>
+            </tr>`,
+          )
+          .join("")}
+      </tbody>
+    </table>
+  </div>`;
+}
+
 function renderHero() {
   const now = indiaParts();
   const target = getDay(selectedDate);
@@ -98,7 +134,7 @@ function renderHero() {
         <div class="kicker">Today's meals are over</div>
         <h2>🌙 Dinner finished</h2>
         <div class="hero-items">Use Tomorrow or browse upcoming menus.</div>
-        <span class="status">Based on India time</span>`;
+        <span class="status">Current time: ${currentTimeText()}</span>`;
       return;
     }
   } else {
@@ -110,8 +146,8 @@ function renderHero() {
     <div class="date">${niceDate(selectedDate)}</div>
     <div class="kicker">${selectedDate === now.date ? "Current / next meal" : "Selected day"}</div>
     <h2>${mealMeta[relevant]?.icon || "🍽️"} ${relevant}</h2>
-    <div class="hero-items">${topItems(entries, 6).join(" • ")}</div>
-    <span class="status">${selectedDate === now.date ? "Based on India time" : "Browse full menu below"}</span>`;
+    ${heroTable(entries)}
+    <span class="status">${selectedDate === now.date ? `Current time: ${currentTimeText()}` : "Browse full menu below"}</span>`;
 }
 
 function mealCard(name, entries, highlight = false) {
@@ -272,6 +308,11 @@ async function init() {
   }
 
   render();
+
+  // Keep the current-time label and current/next meal fresh while the page is open.
+  setInterval(() => {
+    if (selectedDate === indiaParts().date) renderHero();
+  }, 30000);
 }
 
 init().catch((err) => {
