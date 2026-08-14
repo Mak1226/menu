@@ -1,20 +1,6 @@
-# Mess Menu — GitHub Pages version (v2)
+# Mess Menu — GitHub Pages
 
 Standalone static web app. No Lovable dependency and no backend required.
-
-## What's changed in v2
-
-- Search and all quick filters only show results from the **current/next meal onward**.
-- The `Paneer` filter has been replaced with **Veg**.
-- **Veg** and **Non-Veg** are not broad dietary searches.
-- They show only genuine vegetarian/non-vegetarian alternatives offered for the same meal.
-- Breakfast eggs/omelettes are not treated as a Non-Veg choice.
-- Spreadsheet mislabels such as Rasam appearing in a Non-Veg column are ignored.
-- Aug 12's Paneer/Chicken choice is corrected logically despite the source-column swap.
-
-The genuine choice pairs are maintained in:
-
-`data/choicePairs.json`
 
 ## Deploy
 
