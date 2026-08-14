@@ -81,34 +81,15 @@ function topItems(entries, max = 5) {
   return (primary.length ? primary : fallback).slice(0, max);
 }
 
-function isSecondary(category) {
-  return /tea|coffee|milk|bread|butter|jam|accompaniment|add/i.test(category);
-}
-
-function heroTable(entries) {
+function heroMenu(entries) {
   if (!entries.length) {
     return '<div class="hero-empty">No items listed for this meal.</div>';
   }
 
-  return `<div class="hero-table-wrap">
-    <table class="hero-table">
-      <thead>
-        <tr>
-          <th>Category</th>
-          <th>Menu</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${entries
-          .map(
-            ([cat, item]) => `<tr>
-              <td>${escapeHtml(cat)}</td>
-              <td>${escapeHtml(item)}</td>
-            </tr>`,
-          )
-          .join("")}
-      </tbody>
-    </table>
+  return `<div class="hero-menu-grid">
+    ${entries
+      .map(([, item]) => `<div class="hero-menu-item">${escapeHtml(item)}</div>`)
+      .join("")}
   </div>`;
 }
 
@@ -146,7 +127,7 @@ function renderHero() {
     <div class="date">${niceDate(selectedDate)}</div>
     <div class="kicker">${selectedDate === now.date ? "Current / next meal" : "Selected day"}</div>
     <h2>${mealMeta[relevant]?.icon || "🍽️"} ${relevant}</h2>
-    ${heroTable(entries)}
+    ${heroMenu(entries)}
     <span class="status">${selectedDate === now.date ? `Current time: ${currentTimeText()}` : "Browse full menu below"}</span>`;
 }
 
@@ -159,14 +140,9 @@ function mealCard(name, entries, highlight = false) {
       </div>
       ${highlight ? '<span class="badge">CURRENT / NEXT</span>' : ""}
     </div>
-    <div class="menu-grid">
+    <div class="menu-items-grid">
       ${entries
-        .map(
-          ([cat, item]) => `<div class="menu-row">
-        <div class="category">${escapeHtml(cat)}</div>
-        <div class="item ${isSecondary(cat) ? "secondary" : ""}">${escapeHtml(item)}</div>
-      </div>`,
-        )
+        .map(([, item]) => `<div class="menu-item-only">${escapeHtml(item)}</div>`)
         .join("")}
     </div>
   </article>`;
@@ -258,7 +234,6 @@ function syncControls() {
 
 async function init() {
   menu = await fetch(DATA_URL, { cache: "no-store" }).then((r) => r.json());
-
   menu.sort((a, b) => a.date.localeCompare(b.date));
 
   const now = indiaParts();
@@ -270,7 +245,6 @@ async function init() {
   $("#dateSelect").innerHTML = menu
     .map((d) => `<option value="${d.date}">${compactDate(d.date)}</option>`)
     .join("");
-
   $("#dateSelect").value = selectedDate;
 
   $$(".tab").forEach((b) =>
@@ -309,7 +283,6 @@ async function init() {
 
   render();
 
-  // Keep the current-time label and current/next meal fresh while the page is open.
   setInterval(() => {
     if (selectedDate === indiaParts().date) renderHero();
   }, 30000);
