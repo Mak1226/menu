@@ -81,6 +81,13 @@ function topItems(entries, max = 5) {
   return (primary.length ? primary : fallback).slice(0, max);
 }
 
+function dietClass(category = "") {
+  const normalized = String(category).trim().toLowerCase();
+  if (/non[\s-]*veg/.test(normalized)) return "diet-nonveg";
+  if (/veg/.test(normalized)) return "diet-veg";
+  return "";
+}
+
 function heroMenu(entries) {
   if (!entries.length) {
     return '<div class="hero-empty">No items listed for this meal.</div>';
@@ -88,7 +95,7 @@ function heroMenu(entries) {
 
   return `<div class="hero-menu-grid">
     ${entries
-      .map(([, item]) => `<div class="hero-menu-item">${escapeHtml(item)}</div>`)
+      .map(([category, item]) => `<div class="hero-menu-item ${dietClass(category)}">${escapeHtml(item)}</div>`)
       .join("")}
   </div>`;
 }
@@ -142,7 +149,7 @@ function mealCard(name, entries, highlight = false) {
     </div>
     <div class="menu-items-grid">
       ${entries
-        .map(([, item]) => `<div class="menu-item-only">${escapeHtml(item)}</div>`)
+        .map(([category, item]) => `<div class="menu-item-only ${dietClass(category)}">${escapeHtml(item)}</div>`)
         .join("")}
     </div>
   </article>`;
