@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import base64
+import io
 import json
 import re
 import sys
@@ -39,8 +41,30 @@ def excel_date(value):
     raise ValueError(f"Could not parse date value: {value!r}")
 
 
+def workbook_bytes(path: Path) -> bytes:
+    raw = path.read_bytes()
+
+    # Normal Git/GitHub uploads are real XLSX ZIP files and start with PK.
+    if raw.startswith(b"PK"):
+        return raw
+
+    # Chat/connector uploads may arrive as base64 text. Support that too.
+    try:
+        decoded = base64.b64decode(b"".join(raw.split()), validate=True)
+    except Exception as exc:
+        raise RuntimeError(
+            "source/menu.xlsx is neither a valid XLSX file nor a base64-encoded XLSX file"
+        ) from exc
+
+    if not decoded.startswith(b"PK"):
+        raise RuntimeError("Decoded source/menu.xlsx is not a valid XLSX file")
+
+    return decoded
+
+
 def read_first_sheet(path: Path):
-    with zipfile.ZipFile(path) as archive:
+    data = workbook_bytes(path)
+    with zipfile.ZipFile(io.BytesIO(data)) as archive:
         shared_strings = []
         if "xl/sharedStrings.xml" in archive.namelist():
             root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
@@ -112,7 +136,6 @@ def clean(value):
 def convert(source: Path, output: Path):
     rows, max_col = read_first_sheet(source)
 
-    # Dates are discovered automatically from row 1, beginning at column C.
     date_columns = []
     for col in range(2, max_col + 1):
         value = rows.get(1, {}).get(col, "")
@@ -128,7 +151,6 @@ def convert(source: Path, output: Path):
             "No menu dates found. Expected dates in row 1 from column C onward."
         )
 
-    # Meal sections are discovered from column A, so the exact row numbers may change.
     meal_starts = []
     for row_num in sorted(rows):
         label = clean(rows[row_num].get(0, ""))
