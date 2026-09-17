@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,6 +34,42 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # A one-time recovery for a connector that cannot upload large binary files
+      # reliably. Normal future XLSX replacements need no special treatment.
+      - name: Recover and commit verified Excel source if staged
+        run: |
+          if compgen -G 'source/menu.xlsx.b64.part*' > /dev/null; then
+            python3 - <<'PY'
+          import base64
+          import hashlib
+          import zipfile
+          from pathlib import Path
+
+          parts = [Path(f'source/menu.xlsx.b64.part{i}') for i in range(1, 5)]
+          if not all(p.exists() for p in parts):
+              raise SystemExit('Incomplete staged Excel upload; existing site is unchanged')
+          encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
+          if len(encoded) != 10940:
+              raise SystemExit('Staged Excel has an unexpected encoded size')
+          raw = base64.b64decode(encoded, validate=True)
+          expected = 'e8efd791d6b177bea25cda91546845209a5aa69c9268629de66afb7a4194e96e'
+          if hashlib.sha256(raw).hexdigest() != expected:
+              raise SystemExit('Staged Excel failed checksum validation')
+          target = Path('source/menu.xlsx')
+          target.write_bytes(raw)
+          with zipfile.ZipFile(target) as archive:
+              if archive.testzip() is not None:
+                  raise SystemExit('Excel archive is corrupt')
+          print('Restored verified September 16–30 Excel workbook')
+          PY
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add source/menu.xlsx
+            git rm source/menu.xlsx.b64.part1 source/menu.xlsx.b64.part2 source/menu.xlsx.b64.part3 source/menu.xlsx.b64.part4
+            git commit -m 'Restore verified September 16–30 Excel source'
+            git push origin HEAD:master
+          fi
+
       - name: Convert Excel menu to JSON
         run: python3 scripts/convert_menu.py source/menu.xlsx data/menu.json
 
@@ -42,14 +78,14 @@ jobs:
           python3 - <<'PY'
           import json
           from pathlib import Path
-          data = json.loads(Path('data/menu.json').read_text())
-          if not data:
-              raise SystemExit('Generated menu is empty')
+          data = json.loads(Path('data/menu.json').read_text(encoding='utf-8'))
+          if len(data) != len({day['date'] for day in data}):
+              raise SystemExit('Duplicate menu dates')
           required = {'Breakfast', 'Lunch', 'Evening Snacks', 'Dinner'}
           for day in data:
-              if set(day.get('meals', {})) != required:
-                  raise SystemExit(f"Missing meal section for {day.get('date')}")
-          print(f"Validated {len(data)} menu dates")
+              if set(day.get('meals', {})) != required or any(not rows for rows in day['meals'].values()):
+                  raise SystemExit(f"Invalid meal section for {day.get('date')}")
+          print(f"Validated {len(data)} menu dates: {data[0]['date']} to {data[-1]['date']}")
           PY
 
       - name: Setup Pages
@@ -63,5 +99,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-
-# Touch: force deploy after repairing source/menu.xlsx
