@@ -6,6 +6,7 @@ on:
     paths:
       - "source/menu.xlsx"
       - "source/menu.xlsx.b64.ready"
+      - "data/menu.json"
       - "scripts/convert_menu.py"
       - "index.html"
       - "app.js"
@@ -35,7 +36,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check whether Excel conversion is needed
+        id: menu_source
+        shell: bash
+        run: |
+          if [ -f 'source/menu.xlsx.b64.ready' ]; then
+            echo "convert=true" >> "$GITHUB_OUTPUT"
+          elif jq -e '((.head_commit.modified // []) + (.head_commit.added // [])) | index("source/menu.xlsx") != null' "$GITHUB_EVENT_PATH" >/dev/null; then
+            echo "convert=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "convert=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "convert=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Recover staged Excel source if present
+        if: steps.menu_source.outputs.convert == 'true'
         run: |
           if [ -f 'source/menu.xlsx.b64.ready' ]; then
             python3 - <<'PY'
@@ -66,9 +82,14 @@ jobs:
           fi
 
       - name: Convert Excel menu to JSON
+        if: steps.menu_source.outputs.convert == 'true'
         run: python3 scripts/convert_menu.py source/menu.xlsx data/menu.json
 
-      - name: Validate generated menu
+      - name: Use committed menu JSON
+        if: steps.menu_source.outputs.convert != 'true'
+        run: echo "No Excel change in this commit; deploying committed data/menu.json"
+
+      - name: Validate menu
         run: |
           python3 - <<'PY'
           import json
