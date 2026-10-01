@@ -5,7 +5,7 @@ on:
     branches: ["master"]
     paths:
       - "source/menu.xlsx"
-      - "source/menu.xlsx.b64.part*"
+      - "source/menu.xlsx.b64.ready"
       - "scripts/convert_menu.py"
       - "index.html"
       - "app.js"
@@ -37,14 +37,14 @@ jobs:
 
       - name: Recover staged Excel source if present
         run: |
-          if compgen -G 'source/menu.xlsx.b64.part*' > /dev/null; then
+          if [ -f 'source/menu.xlsx.b64.ready' ]; then
             python3 - <<'PY'
           import base64
           import glob
           import zipfile
           from pathlib import Path
 
-          parts = [Path(p) for p in sorted(glob.glob('source/menu.xlsx.b64.part*'))]
+          parts = [Path(p) for p in sorted(glob.glob('source/menu.xlsx.b64.part??'))]
           if not parts:
               raise SystemExit('No staged Excel parts found')
           encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
@@ -60,7 +60,7 @@ jobs:
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add source/menu.xlsx
-            git rm source/menu.xlsx.b64.part*
+            git rm source/menu.xlsx.b64.part* source/menu.xlsx.b64.ready
             git commit -m 'Replace mess menu Excel source'
             git push origin HEAD:master
           fi
