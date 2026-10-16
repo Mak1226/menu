@@ -74,30 +74,60 @@ function getRelevantMeal(hour) {
   return null;
 }
 
-function topItems(entries, max = 5) {
-  const ignored = /^(tea|coffee|milk|bread|butter|jam|accompaniment|add)/i;
-  const primary = entries.filter(([c]) => !ignored.test(c)).map(([, v]) => v);
-  const fallback = entries.map(([, v]) => v);
-  return (primary.length ? primary : fallback).slice(0, max);
+function itemPriority(meal, category) {
+  const c = category.trim().toLowerCase();
+  if (meal === "Breakfast") {
+    if (c === "main dish -01") return 0;
+    if (c === "main dish -02") return 1;
+    if (c === "egg prep") return 2;
+    if (c === "fruits") return 3;
+    if (c.startsWith("side dish")) return 4;
+  }
+  if (meal === "Lunch" || meal === "Dinner") {
+    if (c === "veggie 1") return 0;
+    if (c === "veggie 2") return 1;
+    if (c === "non-veg" || c === "non veg") return 2;
+  }
+  if (meal === "Evening Snacks") {
+    if (c === "snacks") return 0;
+    if (c === "accompaniment") return 1;
+  }
+  return 10;
 }
 
-function dietClass(category = "") {
-  const normalized = String(category).trim().toLowerCase();
-  if (/non[\s-]*veg/.test(normalized)) return "diet-nonveg";
-  if (/veg/.test(normalized)) return "diet-veg";
+function orderedItems(meal, entries) {
+  return entries.map((entry, index) => ({ entry, index }))
+    .sort((a, b) => itemPriority(meal, a.entry[0]) - itemPriority(meal, b.entry[0]) || a.index - b.index)
+    .map(({ entry }) => entry);
+}
+
+function topItems(meal, entries, max = 5) {
+  return orderedItems(meal, entries).map(([, item]) => item).slice(0, max);
+}
+
+function itemColor(meal, category) {
+  const c = category.trim().toLowerCase();
+  if (c === "non-veg" || c === "non veg") return "diet-nonveg";
+  if (c === "veggie 1" || c === "veggie 2") return "diet-veg";
+  if ((meal === "Breakfast" && c.startsWith("main dish")) ||
+      (meal === "Evening Snacks" && c === "snacks")) return "dish-main";
+  if (meal === "Breakfast" && c === "egg prep") return "dish-egg";
+  if (meal === "Breakfast" && c === "fruits") return "dish-fruit";
   return "";
 }
 
-function heroMenu(entries) {
-  if (!entries.length) {
-    return '<div class="hero-empty">No items listed for this meal.</div>';
-  }
-
-  return `<div class="hero-menu-grid">
-    ${entries
-      .map(([category, item]) => `<div class="hero-menu-item ${dietClass(category)}">${escapeHtml(item)}</div>`)
-      .join("")}
-  </div>`;
+function itemGrid(meal, entries, hero = false) {
+  if (!entries.length) return '<div class="hero-empty">No items listed for this meal.</div>';
+  const ordered = orderedItems(meal, entries);
+  const featured = ordered.filter(([c]) => itemPriority(meal, c) < 10);
+  const rest = ordered.filter(([c]) => itemPriority(meal, c) >= 10);
+  const tiles = (items) => items.map(([category, item]) => `
+    <div class="${hero ? "hero-menu-item" : "menu-item-only"} ${itemColor(meal, category)}">
+      ${itemPriority(meal, category) < 10 ? `<span class="item-category">${escapeHtml(category)}</span>` : ""}
+      <span class="item-name">${escapeHtml(item)}</span>
+    </div>`).join("");
+  return `<div class="menu-items-grid featured-items">${tiles(featured)}</div>
+    ${rest.length ? `<div class="also-served">Also served</div><div class="menu-items-grid">${tiles(rest)}</div>` : ""}`;
 }
 
 function renderHero() {
@@ -134,7 +164,7 @@ function renderHero() {
     <div class="date">${niceDate(selectedDate)}</div>
     <div class="kicker">${selectedDate === now.date ? "Current / next meal" : "Selected day"}</div>
     <h2>${mealMeta[relevant]?.icon || "🍽️"} ${relevant}</h2>
-    ${heroMenu(entries)}
+    ${itemGrid(relevant, entries, true)}
     <span class="status">${selectedDate === now.date ? `Current time: ${currentTimeText()}` : "Browse full menu below"}</span>`;
 }
 
@@ -147,11 +177,7 @@ function mealCard(name, entries, highlight = false) {
       </div>
       ${highlight ? '<span class="badge">CURRENT / NEXT</span>' : ""}
     </div>
-    <div class="menu-items-grid">
-      ${entries
-        .map(([category, item]) => `<div class="menu-item-only ${dietClass(category)}">${escapeHtml(item)}</div>`)
-        .join("")}
-    </div>
+    ${itemGrid(name, entries)}
   </article>`;
 }
 
@@ -183,7 +209,7 @@ function renderWeek() {
           .map(
             (m) => `<div class="day-meal">
           <strong>${mealMeta[m].icon} ${m}</strong>
-          <span>${topItems(day.meals[m], 4).map(escapeHtml).join(" • ")}</span>
+          <span>${topItems(m, day.meals[m], 4).map(escapeHtml).join(" • ")}</span>
         </div>`,
           )
           .join("")}
@@ -209,11 +235,7 @@ function render() {
   $("#content").classList.remove("hidden");
 
   if (view === "week") renderWeek();
-  else if (view === "tomorrow") {
-    const idx = menu.findIndex((d) => d.date === selectedDate);
-    const next = menu[Math.min(idx + 1, menu.length - 1)]?.date || selectedDate;
-    $("#content").innerHTML = renderSingleDay(next);
-  } else {
+  else {
     $("#content").innerHTML = renderSingleDay(selectedDate);
   }
 }
@@ -257,6 +279,11 @@ async function init() {
   $$(".tab").forEach((b) =>
     b.addEventListener("click", () => {
       view = b.dataset.view;
+      if (view === "today" || view === "tomorrow") {
+        const day = new Date(`${indiaParts().date}T12:00:00+05:30`);
+        if (view === "tomorrow") day.setDate(day.getDate() + 1);
+        selectedDate = indiaParts(day).date;
+      }
       syncControls();
       render();
     }),
@@ -284,7 +311,7 @@ async function init() {
     }
   });
 
-  if ("serviceWorker" in navigator) {
+  if ("serviceWorker" in navigator && !["localhost", "127.0.0.1"].includes(location.hostname)) {
     navigator.serviceWorker.register("./sw.js").catch(() => {});
   }
 
