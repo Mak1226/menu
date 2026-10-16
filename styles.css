@@ -264,12 +264,23 @@ footer {
 .color-key i { width: 8px; height: 8px; border-radius: 50%; background: #e7b866; }
 .color-key .egg-key { background: #c0a0ef; }
 .color-key .fruit-key { background: #78cddd; }
+.color-key .dessert-key { background: #e5a3d5; }
 .color-key .veg-key { background: #69ca8b; }
 .color-key .nonveg-key { background: #ec8d94; }
 .hero { background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 24px; }
 .hero .date { opacity: 1; color: var(--muted); }
 .hero .kicker { opacity: 1; color: var(--good); }
 .hero .status { color: var(--muted); background: var(--soft); }
+.hero.is-current {
+  background: linear-gradient(135deg, #1c3355, #142239);
+  border-color: #648bcc;
+  box-shadow: 0 0 0 1px #648bcc26, 0 10px 36px #07132455;
+}
+.hero.is-current .date, .hero.is-current .also-served { color: #c0d0e9; }
+.hero.is-current .kicker { color: #a9ceff; }
+.hero.is-current .status { color: #d5e6ff; background: #314d74; }
+.meal-card.current { background: #142239; outline-color: #648bcc; }
+.meal-card.current .badge { background: #314d74; border-color: #648bcc; color: #e1edff; }
 .meal-card { border-radius: 22px; padding: 20px; }
 .meal-head { align-items: center; margin-bottom: 18px; }
 .meal-card h3 { font-size: 20px; }
@@ -288,6 +299,8 @@ footer {
 .dish-egg .item-category { color: #c6acee; }
 .hero-menu-item.dish-fruit, .menu-item-only.dish-fruit { background: #1b3540; border-color: #3b7584; }
 .dish-fruit .item-category { color: #8bd8e6; }
+.hero-menu-item.dish-dessert, .menu-item-only.dish-dessert { background: #44283e; border-color: #935a88; }
+.dish-dessert .item-category { color: #efb6e0; }
 .hero-menu-item.diet-veg, .menu-item-only.diet-veg { background: #203e35; border-color: #326b4a; }
 .diet-veg .item-category { color: #8ed5a4; }
 .hero-menu-item.diet-nonveg, .menu-item-only.diet-nonveg { background: #3e2630; border-color: #7a3c4a; }

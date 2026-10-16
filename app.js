@@ -108,6 +108,7 @@ function topItems(meal, entries, max = 5) {
 function itemColor(meal, category) {
   const c = category.trim().toLowerCase();
   if (c === "non-veg" || c === "non veg") return "diet-nonveg";
+  if (c === "dessert") return "dish-dessert";
   if (c === "veggie 1" || c === "veggie 2") return "diet-veg";
   if ((meal === "Breakfast" && c.startsWith("main dish")) ||
       (meal === "Evening Snacks" && c === "snacks")) return "dish-main";
@@ -133,6 +134,7 @@ function itemGrid(meal, entries, hero = false) {
 function renderHero() {
   const now = indiaParts();
   const target = getDay(selectedDate);
+  $("#hero").classList.toggle("is-current", Boolean(target) && selectedDate === now.date && getRelevantMeal(now.hour) !== null);
 
   if (!target) {
     $("#hero").innerHTML = `
