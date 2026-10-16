@@ -36,22 +36,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Check whether Excel conversion is needed
-        id: menu_source
-        shell: bash
-        run: |
-          if [ -f 'source/menu.xlsx.b64.ready' ]; then
-            echo "convert=true" >> "$GITHUB_OUTPUT"
-          elif jq -e '((.head_commit.modified // []) + (.head_commit.added // [])) | index("source/menu.xlsx") != null' "$GITHUB_EVENT_PATH" >/dev/null; then
-            echo "convert=true" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "convert=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "convert=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Recover staged Excel source if present
-        if: steps.menu_source.outputs.convert == 'true'
+        if: hashFiles('source/menu.xlsx.b64.ready') != ''
         run: |
           if [ -f 'source/menu.xlsx.b64.ready' ]; then
             python3 - <<'PY'
@@ -82,12 +68,7 @@ jobs:
           fi
 
       - name: Convert Excel menu to JSON
-        if: steps.menu_source.outputs.convert == 'true'
         run: python3 scripts/convert_menu.py source/menu.xlsx data/menu.json
-
-      - name: Use committed menu JSON
-        if: steps.menu_source.outputs.convert != 'true'
-        run: echo "No Excel change in this commit; deploying committed data/menu.json"
 
       - name: Validate menu
         run: |
@@ -106,6 +87,16 @@ jobs:
           print(f"Validated {len(data)} menu dates: {data[0]['date']} to {data[-1]['date']}")
           PY
 
+      - name: Keep repository JSON in sync with Excel
+        run: |
+          if ! git diff --quiet -- data/menu.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add data/menu.json
+            git commit -m 'Regenerate menu JSON from Excel'
+            git push origin HEAD:master
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 
@@ -118,4 +109,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v5
 
-# Deploy committed menu data safely
+# Always regenerate from the workbook before validating and deploying.
