@@ -1,184 +1,11 @@
 [
   {
-    "date": "2026-10-16",
+    "date": "2026-11-01",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Watermelon"
-        ],
-        [
-          "Egg Prep",
-          "Masala Omlet"
-        ],
-        [
-          "Cereals",
-          "Corn Flakes"
-        ],
-        [
-          "Milk",
-          "Milk with sugar/Cold Milk"
-        ],
-        [
-          "Healthy-Drinks",
-          "Horlicks"
-        ],
-        [
-          "Bread",
-          "Bread"
-        ],
-        [
-          "Butter",
-          "Butter"
-        ],
-        [
-          "Jam",
-          "Mix Fruit Jam(ALC)"
-        ],
-        [
-          "Tea",
-          "Tea Plain (50:50)"
-        ],
-        [
-          "Coffee",
-          "Coffee Powder only"
-        ],
-        [
-          "Main Dish -01",
-          "bread upma"
-        ],
-        [
-          "Main Dish -02",
-          "Medu Vada"
-        ],
-        [
-          "Side Dish",
-          "Cocunut Chutney"
-        ],
-        [
-          "Side Dish",
-          "Sambhar"
-        ],
-        [
-          "Side Dish",
-          "tomato ketchup"
-        ]
-      ],
-      "Lunch": [
-        [
-          "Salad",
-          "Cucumber Salad"
-        ],
-        [
-          "Veggie 1",
-          "Aloo Matar"
-        ],
-        [
-          "Veggie 2",
-          "Masala channe dry"
-        ],
-        [
-          "Dal",
-          "Moong Daal"
-        ],
-        [
-          "Rice",
-          "Ghee Rice"
-        ],
-        [
-          "Bread",
-          "Puri"
-        ],
-        [
-          "Raita",
-          "Jeera Raita"
-        ],
-        [
-          "Dessert",
-          "Shrikhand"
-        ],
-        [
-          "Accompaniment",
-          "Fryums"
-        ],
-        [
-          "Accompaniment",
-          "Thecha"
-        ]
-      ],
-      "Evening Snacks": [
-        [
-          "Snacks",
-          "Dahi Puri"
-        ],
-        [
-          "Accompaniment",
-          "2 types of chutney, aloo masala"
-        ],
-        [
-          "Coffee",
-          "Coffee Powder only"
-        ],
-        [
-          "Tea",
-          "Tea Plain (50:50)"
-        ]
-      ],
-      "Dinner": [
-        [
-          "Salad",
-          "Green salad (No Onion)"
-        ],
-        [
-          "Veggie 1",
-          "Tawa Veg"
-        ],
-        [
-          "Veggie 2",
-          "Paneer Kolhapuri"
-        ],
-        [
-          "Non-Veg",
-          "Chicken Masala"
-        ],
-        [
-          "Dal",
-          "Dal Adraki"
-        ],
-        [
-          "Rice",
-          "Veg Pulao"
-        ],
-        [
-          "Bread",
-          "Butter roti"
-        ],
-        [
-          "Raita",
-          "Curd"
-        ],
-        [
-          "Dessert",
-          "Gaja"
-        ],
-        [
-          "Accompaniment",
-          "Roastead Papad"
-        ],
-        [
-          "Accompaniment",
-          "Pickle"
-        ]
-      ]
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "meals": {
-      "Breakfast": [
-        [
-          "Fruits",
-          "Papaya"
+          "Musk melon"
         ],
         [
           "Egg Prep",
@@ -186,171 +13,6 @@
         ],
         [
           "Cereals",
-          "Chocos"
-        ],
-        [
-          "Milk",
-          "Milk with sugar/Cold Milk"
-        ],
-        [
-          "Healthy-Drinks",
-          "Bournvita"
-        ],
-        [
-          "Bread",
-          "Bread"
-        ],
-        [
-          "Butter",
-          "Butter"
-        ],
-        [
-          "Jam",
-          "Mix Fruit Jam(ALC)"
-        ],
-        [
-          "Tea",
-          "Tea Plain (50:50)"
-        ],
-        [
-          "Coffee",
-          "Coffee Powder only"
-        ],
-        [
-          "Main Dish -01",
-          "Poha/ Jalabi"
-        ],
-        [
-          "Main Dish -02",
-          "Uttapam"
-        ],
-        [
-          "Side Dish",
-          "Sambar"
-        ],
-        [
-          "Side Dish",
-          "Coconut Chutney"
-        ],
-        [
-          "Side Dish",
-          "(onion,Lemon, Sev)"
-        ]
-      ],
-      "Lunch": [
-        [
-          "Salad",
-          "Sprouts Salad"
-        ],
-        [
-          "Veggie 1",
-          "Kadhai Veg(Dry)"
-        ],
-        [
-          "Veggie 2",
-          "Kadi pakoda"
-        ],
-        [
-          "Dal",
-          "Dal Tadka"
-        ],
-        [
-          "Rice",
-          "Jeera rice"
-        ],
-        [
-          "Bread",
-          "Butter Roti"
-        ],
-        [
-          "Raita",
-          "Mint Raita"
-        ],
-        [
-          "Dessert",
-          "Sliced cake"
-        ],
-        [
-          "Accompaniment",
-          "Lahsoon Chutney(More Garlic Flavours)"
-        ]
-      ],
-      "Evening Snacks": [
-        [
-          "Snacks",
-          "Pav Bhaji"
-        ],
-        [
-          "Accompaniment",
-          "Diced Onion, Lemon Wedges"
-        ],
-        [
-          "Coffee",
-          "Coffee Powder only"
-        ],
-        [
-          "Tea",
-          "Tea Plain (50:50)"
-        ]
-      ],
-      "Dinner": [
-        [
-          "Salad",
-          "Cucumber salad"
-        ],
-        [
-          "Veggie 1",
-          "Lobiya Masala"
-        ],
-        [
-          "Veggie 2",
-          "Veg Manchurian Gravy"
-        ],
-        [
-          "Dal",
-          "Dal Maharani"
-        ],
-        [
-          "Rice",
-          "Fried Rice"
-        ],
-        [
-          "Bread",
-          "Butter roti"
-        ],
-        [
-          "Raita",
-          "Jeera Mint raita"
-        ],
-        [
-          "Dessert",
-          "Ice Cream ButterScoth"
-        ],
-        [
-          "Accompaniment",
-          "Fryums"
-        ],
-        [
-          "Accompaniment",
-          "Thecha"
-        ]
-      ]
-    }
-  },
-  {
-    "date": "2026-10-18",
-    "meals": {
-      "Breakfast": [
-        [
-          "Fruits",
-          "Cut Fruits"
-        ],
-        [
-          "Egg Prep",
-          "Egg Bhurji"
-        ],
-        [
-          "Cereals",
           "Corn Flakes"
         ],
         [
@@ -383,33 +45,25 @@
         ],
         [
           "Main Dish -01",
-          "Poori"
+          "Poha Jalebi"
         ],
         [
           "Main Dish -02",
-          "Set Dosa"
+          "Uttapam"
         ],
         [
           "Side Dish",
-          "Batata Bahji Dosa style"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "Coconut Chutney"
-        ],
-        [
-          "Side Dish",
-          "Sambar"
+          "Sev,Diced lemon,Chopped onion."
         ]
       ],
       "Lunch": [
         [
           "Salad",
-          "Tossed Salad"
-        ],
-        [
-          "Veggie 1",
-          "Aloo Kassa"
+          "Laccha Onion"
         ],
         [
           "Veggie 2",
@@ -429,15 +83,15 @@
         ],
         [
           "Raita",
-          "Raita"
+          "Mix Raita"
         ],
         [
           "Dessert",
-          "Gulab Jamun"
+          "Chocolate Truffle"
         ],
         [
           "Accompaniment",
-          "Fryums"
+          "Fried Papad"
         ],
         [
           "Accompaniment",
@@ -447,7 +101,7 @@
       "Evening Snacks": [
         [
           "Snacks",
-          "hing daal Kachori"
+          "Hing Dal Kachori"
         ],
         [
           "Accompaniment",
@@ -473,7 +127,7 @@
         ],
         [
           "Veggie 2",
-          "Sev Tamatar"
+          "Doodhi Sev"
         ],
         [
           "Dal",
@@ -489,11 +143,11 @@
         ],
         [
           "Raita",
-          "Boondi Raita"
+          "Veg Manchow Soup"
         ],
         [
           "Dessert",
-          "Payassam"
+          "Gajar Halwa (dry)"
         ],
         [
           "Accompaniment",
@@ -507,7 +161,7 @@
     }
   },
   {
-    "date": "2026-10-19",
+    "date": "2026-11-02",
     "meals": {
       "Breakfast": [
         [
@@ -516,7 +170,7 @@
         ],
         [
           "Egg Prep",
-          "Boiled Egg"
+          "Egg Burji"
         ],
         [
           "Cereals",
@@ -560,67 +214,63 @@
         ],
         [
           "Side Dish",
-          "Coconut Chutney"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "Aloo Matar"
-        ],
-        [
-          "Side Dish",
-          "Sambhar"
+          "Aloo matar"
         ]
       ],
       "Lunch": [
         [
+          "Salad",
+          "Green Salad"
+        ],
+        [
           "Veggie 1",
-          "Beguni"
+          "Bindi Do Pyaza"
         ],
         [
           "Veggie 2",
-          "Luchi"
-        ],
-        [
-          "Non-Veg",
-          "Cholar Dal"
+          "Corn Capsicum Masala"
         ],
         [
           "Dal",
-          "Basanti Pulao"
+          "Gujarati Dal"
         ],
         [
           "Rice",
-          "Aloor Dum"
+          "Ghee Rice"
         ],
         [
           "Bread",
-          "Mixed-Veg(Add Paneer)"
+          "Butter roti"
         ],
         [
           "Raita",
-          "Bhaja papod"
+          "Chaas"
         ],
         [
           "Dessert",
-          "Govind bhog Payes"
+          "Angoori Gulab Jamun"
         ],
         [
           "Accompaniment",
-          "Rasogolla"
+          "Fryums"
         ],
         [
           "Accompaniment",
-          "Anarosher Chutney"
+          "Pickle"
         ]
       ],
       "Evening Snacks": [
         [
           "Snacks",
-          "Chilli Potato"
+          "Vada pav"
         ],
         [
           "Accompaniment",
-          "Hot Garlic sauce"
+          "Chutney 2 types(fried Chilli)"
         ],
         [
           "Coffee",
@@ -638,7 +288,7 @@
         ],
         [
           "Veggie 1",
-          "Mix Veg porial"
+          "Aloo Methi"
         ],
         [
           "Veggie 2",
@@ -650,7 +300,7 @@
         ],
         [
           "Dal",
-          "Dal Masoori"
+          "Dabha Dal Tadka"
         ],
         [
           "Rice",
@@ -666,7 +316,7 @@
         ],
         [
           "Dessert",
-          "Chocolate Truffle"
+          "Sweet Boondi"
         ],
         [
           "Accompaniment",
@@ -674,18 +324,18 @@
         ],
         [
           "Accompaniment",
-          "Pickle"
+          "Thecha"
         ]
       ]
     }
   },
   {
-    "date": "2026-10-20",
+    "date": "2026-11-03",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Oats Without Sugar"
+          "Guava"
         ],
         [
           "Egg Prep",
@@ -725,19 +375,19 @@
         ],
         [
           "Main Dish -01",
-          "idli"
-        ],
-        [
-          "Main Dish -02",
           "Misal Pav"
         ],
         [
-          "Side Dish",
-          "Sambhar, Coconut chutney"
+          "Main Dish -02",
+          "Set Dosa"
         ],
         [
           "Side Dish",
-          "Sev + Diced Onion + Lemon"
+          "Sambhar,Chutney"
+        ],
+        [
+          "Side Dish",
+          "Sev,Diced lemon,Chopped onion."
         ]
       ],
       "Lunch": [
@@ -771,11 +421,11 @@
         ],
         [
           "Dessert",
-          "Kala Jamun"
+          "Ada Pradhnam"
         ],
         [
           "Accompaniment",
-          "Fried Papad"
+          "Roastead Papad"
         ],
         [
           "Accompaniment",
@@ -785,7 +435,7 @@
       "Evening Snacks": [
         [
           "Snacks",
-          "Veggie Masala Macroni"
+          "Veggie Masala pasta"
         ],
         [
           "Accompaniment",
@@ -811,11 +461,11 @@
         ],
         [
           "Veggie 2",
-          "Papad Sabji"
+          "Lobhiya Masala"
         ],
         [
           "Dal",
-          "Gujarati Dal"
+          "Pepper rasam"
         ],
         [
           "Rice",
@@ -831,7 +481,7 @@
         ],
         [
           "Dessert",
-          "Boondi Laddu"
+          "Rasgulla"
         ],
         [
           "Accompaniment",
@@ -845,7 +495,7 @@
     }
   },
   {
-    "date": "2026-10-21",
+    "date": "2026-11-04",
     "meals": {
       "Breakfast": [
         [
@@ -854,7 +504,7 @@
         ],
         [
           "Egg Prep",
-          "Boiled Egg"
+          "Bolied Egg"
         ],
         [
           "Cereals",
@@ -890,11 +540,11 @@
         ],
         [
           "Main Dish -01",
-          "Indori Poha"
+          "Aloo onion Paratha"
         ],
         [
           "Main Dish -02",
-          "Aloo Paratha"
+          "Pongal"
         ],
         [
           "Side Dish",
@@ -902,7 +552,7 @@
         ],
         [
           "Side Dish",
-          "Sev + Diced Onion + Lemon"
+          "Savory Boondi"
         ]
       ],
       "Lunch": [
@@ -912,15 +562,15 @@
         ],
         [
           "Veggie 1",
-          "Aloo Parwal Dry"
+          "Mix Veg"
         ],
         [
           "Veggie 2",
-          "Paneer Lababdar"
+          "Malavar Paneer"
         ],
         [
           "Non-Veg",
-          "Butter Chicken"
+          "Pepper Chicken"
         ],
         [
           "Dal",
@@ -940,25 +590,25 @@
         ],
         [
           "Dessert",
-          "Truffle Cake"
+          "Shahi Tukla"
         ],
         [
           "Accompaniment",
-          "Papad"
+          "Fryums"
         ],
         [
           "Accompaniment",
-          "Pickle"
+          "Techa"
         ]
       ],
       "Evening Snacks": [
         [
           "Snacks",
-          "Tawa Sandwich"
+          "Pani puri"
         ],
         [
           "Accompaniment",
-          "Green chutney, Tomato Ketchup"
+          "2 types of Water"
         ],
         [
           "Coffee",
@@ -976,15 +626,15 @@
         ],
         [
           "Veggie 1",
-          "Kurkure Bhindi fry"
+          "Sev Tamatar"
         ],
         [
           "Veggie 2",
-          "Lobiya Masala"
+          "Gobi Alu Masala (dry)"
         ],
         [
           "Dal",
-          "Dal Lasuni"
+          "Dal Makhani"
         ],
         [
           "Rice",
@@ -996,11 +646,11 @@
         ],
         [
           "Raita",
-          "curd"
+          "Mix Raita"
         ],
         [
           "Dessert",
-          "Balushai"
+          "Jalebi"
         ],
         [
           "Accompaniment",
@@ -1014,16 +664,16 @@
     }
   },
   {
-    "date": "2026-10-22",
+    "date": "2026-11-05",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Banana"
+          "Oats Without Sugar"
         ],
         [
           "Egg Prep",
-          "Egg Bhurji"
+          "Poached Eggs"
         ],
         [
           "Cereals",
@@ -1063,15 +713,15 @@
         ],
         [
           "Main Dish -02",
-          "Veg Upma"
+          "Corn Upma"
         ],
         [
           "Side Dish",
-          "Coconut Chutney"
+          "Chutney"
         ],
         [
           "Side Dish",
-          "Tomato ketchup"
+          "Curd"
         ]
       ],
       "Lunch": [
@@ -1081,15 +731,15 @@
         ],
         [
           "Veggie 1",
-          "Batata Bhaji (Dry)"
+          "Cabage Matar"
         ],
         [
           "Veggie 2",
-          "Ussal"
+          "Loki Channa"
         ],
         [
           "Dal",
-          "Amti Dal"
+          "Dal Dhokli"
         ],
         [
           "Rice",
@@ -1097,7 +747,7 @@
         ],
         [
           "Bread",
-          "Poori"
+          "Butter Roti"
         ],
         [
           "Raita",
@@ -1105,15 +755,15 @@
         ],
         [
           "Dessert",
-          "Srikhand"
+          "Imarti"
         ],
         [
           "Accompaniment",
-          "Roastead Papad"
+          "Roasted Papad"
         ],
         [
           "Accompaniment",
-          "Thecha"
+          "Pickle"
         ]
       ],
       "Evening Snacks": [
@@ -1141,19 +791,15 @@
         ],
         [
           "Veggie 1",
-          "Aloo Gobi Masala dry"
+          "Kurkure Bhindi fry"
         ],
         [
           "Veggie 2",
-          "Lauki Kofte Curry"
-        ],
-        [
-          "Non-Veg",
-          "Rasam"
+          "Veg Kofte Curry"
         ],
         [
           "Dal",
-          "Yellow Dal Tadka"
+          "Dhaba Dal Tadka"
         ],
         [
           "Rice",
@@ -1165,11 +811,11 @@
         ],
         [
           "Raita",
-          "Masala Chaas"
+          "Tomato Dhania Shorba"
         ],
         [
           "Dessert",
-          "Besan Burfi"
+          "Moong dal Halwa"
         ],
         [
           "Accompaniment",
@@ -1183,16 +829,16 @@
     }
   },
   {
-    "date": "2026-10-23",
+    "date": "2026-11-06",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Watermelon"
+          "watermelon"
         ],
         [
           "Egg Prep",
-          "Poached eggs"
+          "Masala Omlet"
         ],
         [
           "Cereals",
@@ -1228,37 +874,33 @@
         ],
         [
           "Main Dish -01",
-          "Uthappam"
-        ],
-        [
-          "Main Dish -02",
           "Batata Poha"
         ],
         [
-          "Side Dish",
-          "Coconut Chutney"
+          "Main Dish -02",
+          "Uthappam"
         ],
         [
           "Side Dish",
-          "Sev + Diced Onion + Lemon"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "Sambar"
+          "Sev,Diced lemon,Chopped onion."
         ]
       ],
       "Lunch": [
         [
           "Salad",
-          "Laccha Onion"
+          "Cucumber Salad"
         ],
         [
           "Veggie 1",
-          "Aloo Bhindi Dry"
+          "Alloo Matar"
         ],
         [
           "Veggie 2",
-          "Black chana Masala"
+          "Black chana Masala Dry"
         ],
         [
           "Dal",
@@ -1270,15 +912,15 @@
         ],
         [
           "Bread",
-          "Butter Roti"
+          "Puri"
         ],
         [
           "Raita",
-          "Cucumber Raita"
+          "Btr Milk"
         ],
         [
           "Dessert",
-          "Churma"
+          "Srikhand"
         ],
         [
           "Accompaniment",
@@ -1287,20 +929,16 @@
         [
           "Accompaniment",
           "Lasun ki chutney"
-        ],
-        [
-          "Accompaniment",
-          "fried chilli"
         ]
       ],
       "Evening Snacks": [
         [
           "Snacks",
-          "Dhuska"
+          "Punugulu"
         ],
         [
           "Accompaniment",
-          "Chana Aloo"
+          "Coconut chutney"
         ],
         [
           "Coffee",
@@ -1314,7 +952,7 @@
       "Dinner": [
         [
           "Salad",
-          "Cucumber Salad"
+          "Laccha Onion"
         ],
         [
           "Veggie 1",
@@ -1322,15 +960,15 @@
         ],
         [
           "Veggie 2",
-          "Paneer BTR Masala"
+          "Paneer Kofta"
         ],
         [
           "Non-Veg",
-          "Malvani Chicken Curry"
+          "Kori Gassi"
         ],
         [
           "Dal",
-          "Chana dal Tadka"
+          "Dal Lasooni"
         ],
         [
           "Rice",
@@ -1346,7 +984,7 @@
         ],
         [
           "Dessert",
-          "Browniee"
+          "Gaja"
         ],
         [
           "Accompaniment",
@@ -1360,16 +998,16 @@
     }
   },
   {
-    "date": "2026-10-24",
+    "date": "2026-11-07",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Papaya"
+          "Musk melon"
         ],
         [
           "Egg Prep",
-          "Masala Omlet"
+          "Bolied Egg"
         ],
         [
           "Cereals",
@@ -1409,19 +1047,15 @@
         ],
         [
           "Main Dish -02",
-          "Vada"
+          "Idli"
+        ],
+        [
+          "Side Dish",
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
           "Curd"
-        ],
-        [
-          "Side Dish",
-          "Coconut Chutney and Sambhar"
-        ],
-        [
-          "Side Dish",
-          "Pickle"
         ]
       ],
       "Lunch": [
@@ -1431,7 +1065,7 @@
         ],
         [
           "Veggie 1",
-          "Tadka Brinjal Bharta"
+          "Tadka Brinjal Tomato Bharta"
         ],
         [
           "Veggie 2",
@@ -1439,7 +1073,7 @@
         ],
         [
           "Dal",
-          "Dal Tadka"
+          "Fried onion dal"
         ],
         [
           "Rice",
@@ -1450,16 +1084,12 @@
           "Butter Roti"
         ],
         [
-          "Raita",
-          "Mix Veg raita"
-        ],
-        [
           "Dessert",
-          "Dahi Vada"
+          "Dahi Valla"
         ],
         [
           "Accompaniment",
-          "Fryums"
+          "Roastead Papad"
         ],
         [
           "Accompaniment",
@@ -1469,11 +1099,11 @@
       "Evening Snacks": [
         [
           "Snacks",
-          "Ragada Pattice"
+          "Stuffed Sandwich"
         ],
         [
           "Accompaniment",
-          "Ghoogini/ Chutney"
+          "Ketchup"
         ],
         [
           "Coffee",
@@ -1487,15 +1117,19 @@
       "Dinner": [
         [
           "Salad",
-          "Greek salad"
+          "Cucumber salad"
         ],
         [
           "Veggie 1",
-          "Corn & Capsicum Masala"
+          "Corn Capsicum Masala"
         ],
         [
           "Veggie 2",
           "Veg Manchurian Gravy"
+        ],
+        [
+          "Dal",
+          "Dal Maharani"
         ],
         [
           "Rice",
@@ -1507,11 +1141,11 @@
         ],
         [
           "Raita",
-          "Jeera Raita"
+          "Hot N Sour Soup"
         ],
         [
           "Dessert",
-          "Fruit Custard"
+          "Slice Cake"
         ],
         [
           "Accompaniment",
@@ -1519,22 +1153,22 @@
         ],
         [
           "Accompaniment",
-          "Thecha"
+          "Chilli Garlic Oil"
         ]
       ]
     }
   },
   {
-    "date": "2026-10-25",
+    "date": "2026-11-08",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Oats Without Sugar"
+          "Banana"
         ],
         [
           "Egg Prep",
-          "Boiled Egg"
+          "Poached Eggs"
         ],
         [
           "Cereals",
@@ -1570,33 +1204,25 @@
         ],
         [
           "Main Dish -01",
-          "Plain Paratha"
+          "Bread Upma"
         ],
         [
           "Main Dish -02",
-          "ragi idli"
+          "Vada"
         ],
         [
           "Side Dish",
-          "Coconut Chutney"
-        ],
-        [
-          "Side Dish",
-          "sambhar"
-        ],
-        [
-          "Side Dish",
-          "Aloo tomato Sabji"
+          "Sambhar,Chutney"
         ]
       ],
       "Lunch": [
         [
           "Salad",
-          "Cucumber Salad"
+          "Laccha Onion"
         ],
         [
           "Veggie 1",
-          "Dum Aloo Banarasi"
+          "Aloo Kasa"
         ],
         [
           "Veggie 2",
@@ -1604,7 +1230,7 @@
         ],
         [
           "Non-Veg",
-          "Hyderabadi Chicken Biryani"
+          "Kolkata Chicken Biryani"
         ],
         [
           "Dal",
@@ -1620,11 +1246,11 @@
         ],
         [
           "Dessert",
-          "Gulab Jamun"
+          "Ladoo"
         ],
         [
           "Accompaniment",
-          "Fryums"
+          "Masala fried Papad"
         ],
         [
           "Accompaniment",
@@ -1634,11 +1260,11 @@
       "Evening Snacks": [
         [
           "Snacks",
-          "Dabeli"
+          "Green dal Vada"
         ],
         [
           "Accompaniment",
-          "Chutney 2 types"
+          "Chutney 2 types (Fried Chilli)"
         ],
         [
           "Coffee",
@@ -1652,27 +1278,31 @@
       "Dinner": [
         [
           "Salad",
-          "Mix Green Salad"
+          "Lacha Masala onion"
         ],
         [
           "Veggie 1",
-          "aloo beans Dry"
+          "Pindi Chole"
         ],
         [
           "Veggie 2",
-          "punjabi rajma"
+          "Fried Chilli"
+        ],
+        [
+          "Non-Veg",
+          "Welcome drinks"
         ],
         [
           "Dal",
-          "Dal Pancmel"
+          "Dhaba Dal"
         ],
         [
           "Rice",
-          "Basanti Pulao"
+          "Navratan Pulao"
         ],
         [
           "Bread",
-          "Butter roti"
+          "Stuffed Baked Kulcha"
         ],
         [
           "Raita",
@@ -1680,30 +1310,30 @@
         ],
         [
           "Dessert",
-          "Vanila Icecream"
+          "Vanila Ice cream"
         ],
         [
           "Accompaniment",
-          "Roastead Papad"
+          "Brownie, Choco Syrup"
         ],
         [
           "Accompaniment",
-          "Thecha"
+          "Papad"
         ]
       ]
     }
   },
   {
-    "date": "2026-10-26",
+    "date": "2026-11-09",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Banana"
+          "Guava"
         ],
         [
           "Egg Prep",
-          "Egg Bhurji"
+          "Masala Omlet"
         ],
         [
           "Cereals",
@@ -1739,15 +1369,15 @@
         ],
         [
           "Main Dish -01",
-          "Aloo Paratha"
+          "Mixed veg Paratha"
         ],
         [
           "Main Dish -02",
-          "semiya upma"
+          "Bisibila bath"
         ],
         [
           "Side Dish",
-          "Tomato Chutney"
+          "Savory Boondi"
         ],
         [
           "Side Dish",
@@ -1761,7 +1391,7 @@
         ],
         [
           "Veggie 1",
-          "Dal Dhokli"
+          "Pakora Kadhi"
         ],
         [
           "Veggie 2",
@@ -1789,7 +1419,7 @@
         ],
         [
           "Accompaniment",
-          "Roastead Papad"
+          "Papad"
         ],
         [
           "Accompaniment",
@@ -1799,11 +1429,11 @@
       "Evening Snacks": [
         [
           "Snacks",
-          "Papdi Chat"
+          "Ragada Pattice"
         ],
         [
           "Accompaniment",
-          "2 type of chutney"
+          "Ghoogini/ Chutney"
         ],
         [
           "Coffee",
@@ -1821,11 +1451,11 @@
         ],
         [
           "Veggie 1",
-          "Torai Masala"
+          "Jeera Aloo"
         ],
         [
           "Veggie 2",
-          "Paneer Butter Masala"
+          "Palak Paneer"
         ],
         [
           "Non-Veg",
@@ -1845,11 +1475,11 @@
         ],
         [
           "Raita",
-          "Curd"
+          "Veg Soup"
         ],
         [
           "Dessert",
-          "Jalebi"
+          "Gajar Halwa"
         ],
         [
           "Accompaniment",
@@ -1863,16 +1493,16 @@
     }
   },
   {
-    "date": "2026-10-27",
+    "date": "2026-11-10",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Watermelon"
+          "Papaya"
         ],
         [
           "Egg Prep",
-          "Boiled Egg"
+          "Bolied Egg"
         ],
         [
           "Cereals",
@@ -1908,19 +1538,19 @@
         ],
         [
           "Main Dish -01",
-          "Misal pav"
+          "Batata Poha"
         ],
         [
           "Main Dish -02",
-          "Masala Uttapam"
+          "Vada"
         ],
         [
           "Side Dish",
-          "coconut Chutney"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "Sambhar"
+          "Sev,Diced lemon,Chopped onion."
         ]
       ],
       "Lunch": [
@@ -1930,7 +1560,7 @@
         ],
         [
           "Veggie 1",
-          "Jeera Aloo"
+          "Veg Poriyal"
         ],
         [
           "Veggie 2",
@@ -1938,7 +1568,7 @@
         ],
         [
           "Dal",
-          "Sambhar"
+          "Puli Kuzhambu"
         ],
         [
           "Rice",
@@ -1958,11 +1588,11 @@
         ],
         [
           "Accompaniment",
-          "Fried Papad"
+          "Fryums"
         ],
         [
           "Accompaniment",
-          "Thecha"
+          "Pickle"
         ]
       ],
       "Evening Snacks": [
@@ -1990,7 +1620,7 @@
         ],
         [
           "Veggie 1",
-          "Methi Matar Masala"
+          "Aloo 65"
         ],
         [
           "Veggie 2",
@@ -1998,7 +1628,7 @@
         ],
         [
           "Dal",
-          "Rajasthani Dal"
+          "Dal Palak"
         ],
         [
           "Rice",
@@ -2010,11 +1640,11 @@
         ],
         [
           "Raita",
-          "Chaas"
+          "Btr Milk"
         ],
         [
           "Dessert",
-          "Kala Jamun"
+          "Marvel Slice Cake"
         ],
         [
           "Accompaniment",
@@ -2028,16 +1658,16 @@
     }
   },
   {
-    "date": "2026-10-28",
+    "date": "2026-11-11",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Mixed Fruits"
+          "Oats Without Sugar"
         ],
         [
           "Egg Prep",
-          "Egg Akuri"
+          "Poached Eggs"
         ],
         [
           "Cereals",
@@ -2077,29 +1707,29 @@
         ],
         [
           "Main Dish -02",
-          "Veg Upma"
+          "Set Dosa"
         ],
         [
           "Side Dish",
-          "Ghoogni"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "coconut chutney"
+          "Batata Bahji"
         ]
       ],
       "Lunch": [
         [
           "Salad",
-          "Cucumber slad"
+          "Cucumber salad"
         ],
         [
           "Veggie 1",
-          "All Jeera Dry"
+          "Dum Aloo"
         ],
         [
           "Veggie 2",
-          "Paneer Biryani"
+          "Veg/ Panner/ Soya Biryani"
         ],
         [
           "Non-Veg",
@@ -2159,7 +1789,7 @@
         ],
         [
           "Dal",
-          "Dal Tadka"
+          "Urad dal"
         ],
         [
           "Rice",
@@ -2171,11 +1801,11 @@
         ],
         [
           "Raita",
-          "Tadkawali Raita"
+          "Lemon Coriander soup"
         ],
         [
           "Dessert",
-          "Gajar Halwa"
+          "Malpua"
         ],
         [
           "Accompaniment",
@@ -2189,16 +1819,16 @@
     }
   },
   {
-    "date": "2026-10-29",
+    "date": "2026-11-12",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Banana"
+          "watermelon"
         ],
         [
           "Egg Prep",
-          "Poached eggs"
+          "Masala Omlet"
         ],
         [
           "Cereals",
@@ -2238,15 +1868,19 @@
         ],
         [
           "Main Dish -02",
-          "Pongal"
+          "Idli"
         ],
         [
           "Side Dish",
-          "Savouri Boodhi"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "Curd/ Pickle"
+          "Curd"
+        ],
+        [
+          "Side Dish",
+          "Pickle"
         ]
       ],
       "Lunch": [
@@ -2260,11 +1894,11 @@
         ],
         [
           "Veggie 2",
-          "Lobiya Masala"
+          "Lauki Chana"
         ],
         [
           "Dal",
-          "Dal Fry"
+          "Fried onion dal"
         ],
         [
           "Rice",
@@ -2276,11 +1910,11 @@
         ],
         [
           "Raita",
-          "Mixed veg Raita"
+          "Mint Raita"
         ],
         [
           "Dessert",
-          "Lengcha"
+          "Chum-chum"
         ],
         [
           "Accompaniment",
@@ -2288,7 +1922,7 @@
         ],
         [
           "Accompaniment",
-          "Pickle"
+          "Thecha"
         ]
       ],
       "Evening Snacks": [
@@ -2316,19 +1950,15 @@
         ],
         [
           "Veggie 1",
-          "Dahi Tikhari"
+          "kadhi pakoda"
         ],
         [
           "Veggie 2",
-          "Aloo 65"
-        ],
-        [
-          "Non-Veg",
-          "Rasam"
+          "Methi Matar Masala"
         ],
         [
           "Dal",
-          "Dal Makhani"
+          "Pepper Rasam"
         ],
         [
           "Rice",
@@ -2348,7 +1978,7 @@
         ],
         [
           "Accompaniment",
-          "Fryums"
+          "Roastead Papad"
         ],
         [
           "Accompaniment",
@@ -2358,16 +1988,16 @@
     }
   },
   {
-    "date": "2026-10-30",
+    "date": "2026-11-13",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Watermelon"
+          "Banana"
         ],
         [
           "Egg Prep",
-          "Boiled Egg"
+          "Bolied Egg"
         ],
         [
           "Cereals",
@@ -2407,19 +2037,15 @@
         ],
         [
           "Main Dish -02",
-          "Semiya Upma"
+          "Pongal"
         ],
         [
           "Side Dish",
-          "Green Chutney, Coconut Chutney"
+          "Savory Boondi"
         ],
         [
           "Side Dish",
           "Curd"
-        ],
-        [
-          "Side Dish",
-          "Achaar"
         ]
       ],
       "Lunch": [
@@ -2429,7 +2055,7 @@
         ],
         [
           "Veggie 1",
-          "Kurkura Bhindi"
+          "Bhindi Do-Pyaza"
         ],
         [
           "Veggie 2",
@@ -2457,7 +2083,7 @@
         ],
         [
           "Accompaniment",
-          "Roasted Papad"
+          "Papad"
         ],
         [
           "Accompaniment",
@@ -2485,7 +2111,7 @@
       "Dinner": [
         [
           "Salad",
-          "Mix Green Salad"
+          "Cucumber Salald"
         ],
         [
           "Veggie 1",
@@ -2493,7 +2119,7 @@
         ],
         [
           "Veggie 2",
-          "Paneer & Green peas bhurji"
+          "Paneer Makhni"
         ],
         [
           "Non-Veg",
@@ -2501,7 +2127,7 @@
         ],
         [
           "Dal",
-          "Dal fry"
+          "Fried onion Dal"
         ],
         [
           "Rice",
@@ -2513,11 +2139,172 @@
         ],
         [
           "Raita",
-          "Tadka wali Raita"
+          "Tomato Soup"
         ],
         [
           "Dessert",
-          "Moong Dal Halwa"
+          "Wheat Halwa"
+        ],
+        [
+          "Accompaniment",
+          "Fryums"
+        ],
+        [
+          "Accompaniment",
+          "Pickle"
+        ]
+      ]
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "meals": {
+      "Breakfast": [
+        [
+          "Fruits",
+          "Guava"
+        ],
+        [
+          "Egg Prep",
+          "Poached Eggs"
+        ],
+        [
+          "Cereals",
+          "Corn Flakes"
+        ],
+        [
+          "Milk",
+          "Milk with sugar/Cold Milk"
+        ],
+        [
+          "Healthy-Drinks",
+          "Horlicks"
+        ],
+        [
+          "Bread",
+          "Bread"
+        ],
+        [
+          "Butter",
+          "Butter"
+        ],
+        [
+          "Jam",
+          "Mix Fruit Jam(ALC)"
+        ],
+        [
+          "Tea",
+          "Tea Plain (50:50)"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Main Dish -01",
+          "misal pav"
+        ],
+        [
+          "Main Dish -02",
+          "Upma"
+        ],
+        [
+          "Side Dish",
+          "Chutney"
+        ],
+        [
+          "Side Dish",
+          "Sev,Diced lemon,Chopped onion."
+        ]
+      ],
+      "Lunch": [
+        [
+          "Salad",
+          "Mix Green Salad"
+        ],
+        [
+          "Veggie 1",
+          "Aloo Baigan Tomato Chokha"
+        ],
+        [
+          "Veggie 2",
+          "Kadi Pakodi"
+        ],
+        [
+          "Dal",
+          "Dal Pancmel"
+        ],
+        [
+          "Rice",
+          "Basanti Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Chaas"
+        ],
+        [
+          "Dessert",
+          "Gulab Jamun"
+        ],
+        [
+          "Accompaniment",
+          "Roastead Papad"
+        ]
+      ],
+      "Evening Snacks": [
+        [
+          "Snacks",
+          "Daveli"
+        ],
+        [
+          "Accompaniment",
+          "2 types of chutney"
+        ],
+        [
+          "Coffee",
+          "Coffee Powder only"
+        ],
+        [
+          "Tea",
+          "Tea Plain (50:50)"
+        ]
+      ],
+      "Dinner": [
+        [
+          "Salad",
+          "Green salad (No Onion)"
+        ],
+        [
+          "Veggie 1",
+          "Tawa Veg"
+        ],
+        [
+          "Veggie 2",
+          "Dahi Tikhari"
+        ],
+        [
+          "Dal",
+          "Dal Adraki"
+        ],
+        [
+          "Rice",
+          "Veg Pulao"
+        ],
+        [
+          "Bread",
+          "Butter roti"
+        ],
+        [
+          "Raita",
+          "Chaas"
+        ],
+        [
+          "Dessert",
+          "Besan Burfi"
         ],
         [
           "Accompaniment",
@@ -2531,12 +2318,12 @@
     }
   },
   {
-    "date": "2026-10-31",
+    "date": "2026-11-15",
     "meals": {
       "Breakfast": [
         [
           "Fruits",
-          "Papaya"
+          "Watermelon"
         ],
         [
           "Egg Prep",
@@ -2544,7 +2331,7 @@
         ],
         [
           "Cereals",
-          "Corn Flakes"
+          "Chocos"
         ],
         [
           "Milk",
@@ -2576,45 +2363,37 @@
         ],
         [
           "Main Dish -01",
-          "Masala Khidi"
+          "Peanut Poha"
         ],
         [
           "Main Dish -02",
-          "Vada"
+          "Uttapam"
         ],
         [
           "Side Dish",
-          "Curd"
+          "Sambhar,Chutney"
         ],
         [
           "Side Dish",
-          "Coconut Chutney and Sambhar"
-        ],
-        [
-          "Side Dish",
-          "Pickle"
+          "Sev,Diced lemon,Chopped onion."
         ]
       ],
       "Lunch": [
         [
           "Salad",
-          "Tossed Salad"
+          "Laccha Onion"
         ],
         [
           "Veggie 1",
-          "Brinjal Bharta"
+          "Dum Aloo Banarasi"
         ],
         [
           "Veggie 2",
-          "Mixed Kothol"
+          "Chettinad Veg Biryani"
         ],
         [
-          "Dal",
-          "Dal Tadka"
-        ],
-        [
-          "Rice",
-          "Jeera Rice"
+          "Non-Veg",
+          "Lucknow Chicken Biryani"
         ],
         [
           "Bread",
@@ -2622,15 +2401,15 @@
         ],
         [
           "Raita",
-          "Mix Veg raita"
+          "Raita"
         ],
         [
           "Dessert",
-          "Malpua"
+          "Sliced cake"
         ],
         [
           "Accompaniment",
-          "Fryums"
+          "Roastead Papad"
         ],
         [
           "Accompaniment",
@@ -2640,11 +2419,11 @@
       "Evening Snacks": [
         [
           "Snacks",
-          "Hara Bhara Kabab"
+          "Papdi chaat"
         ],
         [
           "Accompaniment",
-          "Green Chutney and Mint Chutney"
+          "Ghugni,Onion,Chutnet"
         ],
         [
           "Coffee",
@@ -2658,11 +2437,11 @@
       "Dinner": [
         [
           "Salad",
-          "Greek salad"
+          "Cucumber salad"
         ],
         [
           "Veggie 1",
-          "Corn & Capsicum Masala"
+          "Lobiya Masala"
         ],
         [
           "Veggie 2",
@@ -2670,7 +2449,7 @@
         ],
         [
           "Dal",
-          "Gujarati Dal"
+          "Kaddu Ka Dalcha"
         ],
         [
           "Rice",
@@ -2682,11 +2461,11 @@
         ],
         [
           "Raita",
-          "Jeera Raita"
+          "Manchow Soup"
         ],
         [
           "Dessert",
-          "Fruit Custard"
+          "Btr Scotch Ice-Cream"
         ],
         [
           "Accompaniment",
@@ -2694,7 +2473,7 @@
         ],
         [
           "Accompaniment",
-          "Pickle"
+          "Thecha"
         ]
       ]
     }
